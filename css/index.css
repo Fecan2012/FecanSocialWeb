@@ -1,0 +1,249 @@
+﻿*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial,Helvetica, sans-serif;
+	font-size: 12px;
+	
+}
+.headerMenu{
+	background-image: url('images/menu.png');
+	height:40px;
+	border-bottom:0px;
+	padding-left:2px;
+	padding-right:auto;
+	width:100%;
+        background-color: #33CC33;
+        
+
+}
+#wrapper{
+	background-image: url('images/menu.png');
+	margin-left:auto;
+	margin-right:auto;
+	width:100px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.logo{
+	width:125px;
+	background-image: url('images/menu.png');
+
+
+}
+.logo img{
+background-image: url('images/menu.png');
+
+	width:150px;
+	height:38px;
+}
+.searchBox{
+	background-image: url('images/menu.png');
+	position:absolute;
+	top: 13px;
+	margin-left:135px;
+}
+
+#search input[type=search]{
+	background: #F3F6F9 url('images/search-icon.png') no-repeat 10px 6px;
+	outline: none;
+	border: 0 none;
+	font: bold 12px Arial,Helvetica,Sans-serif;
+	width: 350px;
+	margin: 0px;
+	padding: 6px 15px 6px 35px;
+	text-shadow: 0 2px 2px rgba(0, 0, 0,0.3);
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255,0.1),0 1px 3px rgba(0, 0, 0, 0.2) insert;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255,0.1),0 1px 3px rgba(0, 0, 0, 0.2) insert;
+	box-shadow: 0 1px 0 rgba(255, 255, 255,0.1),0 1px 3px rgba(0, 0, 0, 0.2) insert;
+	-webkit-transaction: all 0.7s ease 0s;
+	-moz-transition: all 0.7s ease 0s;
+	-o-transition:all 0.7s ease 0s;
+	transition:all 0.7s ease 0s;
+}
+#search input[type=search]:focus{
+	background: #8AE18A url('images/search-icon-dark.png') no-repeat 10px 6px;
+	color: #3366FF;
+	width: 350px;
+	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255,0.1),0 1px 0 rgba(0, 0, 0, 0.9) insert;
+	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255,0.1),0 1px 0 rgba(0, 0, 0, 0.9) insert;
+	box-shadow:0 1px 0 rgba(255, 255, 255,0.1),0 1px 0 rgba(0, 0, 0, 0.9) insert;
+	text-shadow:0 2px 3px rgba(0, 0, 0, 0.1);
+}
+@media screen and(max-width:1280px){	
+#menu {
+	background-color: #33CC33;
+	background-image: url('images/menu.png');
+	position:absolute;
+	top: 0px;
+	right:0px;
+	height:37px;
+	padding-top:19px;
+	margin-right:4%;
+}
+}
+@media screen and(min-width:1280px){	
+#menu {
+	background-image: url('images/menu.png');
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 37px;
+	width:100%;
+	padding-top: 19px;
+	margin-right: 4%;
+	background-color: #33CC33;
+}
+}
+
+#menu a{
+	background-color: #33CC33;
+	color: #FFFF66;
+	text-decoration: none;
+	font-size: 18px;
+	background-image: url('images/menu.png');
+	background-repeat: no-repeat;
+	padding-top: 21px;
+	padding-bottom: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#menu a:hover{
+	background-image: url('images/menuHover.png');
+	color: #3333CC;
+}
+h2{
+	background-color:#33CC33;
+	font-size:18px;
+	padding:8px;
+	color:#FFFF66;
+}
+/*input[type=text]{
+	border: 1px solid #e2e2e2;
+	font-size: 15px;
+	width: 300px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	outline: none;
+	background-color: #33CC33;
+}
+input[type=text]:hover{
+	border-color:1px solid #33CC33;
+}
+*/
+#signUp {
+	border-radius: 50px;
+	width: 400px;
+	height: 550px;
+	text-align: center;
+	margin-left: 100px;
+	opacity: 0.9;
+	margin-top: 25px;
+	background-color: #33CC33;
+}
+label {
+	color: #FFFF66;
+	font-size: large;
+	font-weight: 500;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#logIn{
+	border-radius: 50px;
+	width: 400px;
+	height: 550px;
+	text-align: center;
+	margin-left: 100px;
+	opacity: 0.9;
+	margin-top: 25px;
+	background-color: #33CC33;
+}
+.profileLeftSideContent{
+	width:194px;
+	padding-right:0px;
+	padding-bottom:5px;
+	padding-top:5px;
+	padding-left:0px;
+	height:200px;
+}
+.postForm{
+	float:right;
+	width:560px;
+	height:100px;
+	background-color:#F3F6F9;
+	padding: 5px;
+}
+.profilePosts{
+	float: right;
+	width: 560px;
+	height: 400px;
+	background-color: #C9F1C9;
+	padding: 5px;
+}
+#wrapper2{
+	margin-left:auto;
+	margin-right:auto;
+	width:100px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+input{
+	text-align: center;
+	
+}
+#createCourse{
+	border:none;
+	vertical-align: middle;
+	text-align: center;
+	height: 250px;
+	background-color: #F3F6F9;
+	margin-top:50px;
+}
+#createCourse input{
+		text-align: center;
+}
+#createCourse textarea{
+	
+	text-align: center;
+	
+}
+td{
+	font-weight: bold;
+	color: #90B8FF;
+	font-size: medium;
+}
+#createDiscussion{
+	width:791px;
+	height:70px;
+	background-color: #F3F6F9;
+
+}
+#wrapper3{
+margin-left:auto;
+	margin-right:auto;
+	width:100px;
+	padding-top:0px;
+	padding-bottom:0px;
+	background-color: #C9F1C9;
+	height: 100%;
+}
+#wrapper3 input{
+	margin: 5px;
+	border-radius: 7px;
+	padding: 7px;
+	text-align: center;
+	background-color: #FAFFFF;
+}
+#wrapper3 select{
+	border-radius: 7px;
+	padding: 7px;
+	text-align: center;
+
+}
+#wrapper3 textarea{
+	border-radius: 7px;
+	padding: 7px;
+	text-align: center;
+	background-color: #FAFFFF;
+
+
+}
+
