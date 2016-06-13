@@ -1,0 +1,28 @@
+alter table profile_images change first_name user_id int(5); 
+
+ALTER TABLE profile_images
+ADD FOREIGN KEY (user_id)
+REFERENCES profile(profile_id);
+
+alter table poster add description varchar(20);
+
+UPDATE poster SET description="User Post" WHERE Poster_id = 1;
+UPDATE poster SET description="Discussion" WHERE Poster_id = 2;
+INSERT into poster values(3,3,"Discussion Post");
+
+CREATE TABLE IF NOT EXISTS `discussion_comment` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `discussion_id` int(11) NOT NULL,
+  `comment_id` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `discussion_id` (`discussion_id`),
+  KEY `comment_id` (`comment_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1;
+
+ALTER TABLE discussion_comment
+ADD FOREIGN KEY (discussion_id)
+REFERENCES discussion(discussion_id);
+
+ALTER TABLE discussion_comment
+ADD FOREIGN KEY (comment_id)
+REFERENCES post(post_id);
