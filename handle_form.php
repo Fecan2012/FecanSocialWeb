@@ -18,14 +18,14 @@ if (isset($_POST['submit']) && $_POST['agreeCheckbox'] == TRUE) {
     $pn = $_POST['programName'];
     $cn = $_POST['campusName'];
 	
-	$con=mysqli_connect("localhost","root","1234","clink");
+	$con=mysqli_connect("us-cdbr-iron-east-04.cleardb.net","b50d8c2726eda5","4a9690b1","heroku_cdb11dd97f00e5b");
 	
 	$check = 0;
 
 //Check whether username already exists in the database
 $e_check = mysqli_query($con, "SELECT email FROM profile WHERE email='$un'");
 //Count the number of rows returned
-    $email_check = mysql_num_rows($e_check);
+    $email_check = mysqli_num_rows($e_check);
     if ($check == 0) {
         if ($email_check == 0) {
 //check all of the fields have been filed in
